@@ -53,7 +53,7 @@ contract TestNFT is ERC721 {
 
     event NFTMinted(address recipient, uint256 tokenId);
 
-    constructor() ERC721("IzzyNFT", "IZZNFT") {}
+    constructor() ERC721("MewingNFT", "MEWINGNFT") {}
 
     function mintNFT(address recipient) public returns (uint256) {
         _currentTokenId += 1;
@@ -99,6 +99,6 @@ npm run mint
 - push this project to your github and paste your repository link in testnet dashboard
 
 by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
+github : [Ishcy](https://github.com/ishcy)
+twitter : @Ishly13
+telegram : @Ish_ly
